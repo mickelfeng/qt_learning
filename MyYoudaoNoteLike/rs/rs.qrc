@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/sys">
+        <file>p.png</file>
+        <file>arr_down.png</file>
+        <file>arr_right.png</file>
+        <file>arr_right_gray.png</file>
+        <file>arrow_triangle-down.png</file>
+        <file>arrow_triangle-right.png</file>
+        <file>p_blue.png</file>
+        <file>p_gray.png</file>
+        <file>search.png</file>
+    </qresource>
+</RCC>

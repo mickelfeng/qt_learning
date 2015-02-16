@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*定义全局滚动条样式*/
+	
+ QScrollBar:vertical {
+     border: 0px;
+     width: 15px;
+ }
+
+ 
+
+ QScrollBar::handle:vertical {
+     background: rgba(69,124,216,150);
+    
+ }
+ 
+
+ 
+ QScrollBar::add-line:vertical {
+     border: 0px;
+     height: 0px;
+ }
+
+ QScrollBar::sub-line:vertical {
+     border:0px;
+     height: 0px;
+ }
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+     border: 0px;
+ }
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+     background: rgba(0,0,0,0);
+ }
+
+/********************************/
+ 
+ QScrollBar:horizontal {
+     border: 0px;
+     height: 15px;
+ }
+
+
+ QScrollBar::handle:horizontal {
+     background: rgba(69,124,216,150);
+     min-width: 20px;
+ }
+
+ 
+ QScrollBar::add-line:horizontal {
+     border: 0px;
+     width: 0px;
+ }
+
+ QScrollBar::sub-line:horizontal {
+     border:0px;
+     width: 0px;
+ }
+ QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
+     border: 0px;
+ }
+
+ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+     background: rgba(0,0,0,0);
+ }
+
+
+ 
+/*滚动条样式定义结束*/
+
+
+#top_widget{
+	 
+	background-color: rgb(87, 137, 220);
+}
+
+#left_scrollArea,#right_scrollArea{
+	border:0px;
+}
+
+#left_scrollArea QWidget{
+	background-color: rgb(246, 246, 246);
+}
+
+#left_scrollArea QListWidget{
+	 border:none;
+}
+
+#left_scrollArea QListWidget::item{
+	padding:9px 5px 9px 20px;
+	border:0px;
+	color: rgb(144, 144, 144);
+}
+
+#left_scrollArea QListWidget::item:hover{
+	background-color:rgb(232, 232, 232);
+	border-left:3px solid rgb(69,124,216);
+	padding:5px 5px 5px 17px;
+	
+}
+
+#left_scrollArea QListWidget::item:selected{
+	 
+	background-color:rgb(238, 238, 238);
+	border-left:3px solid  rgb(69,124,216);
+	padding:5px 5px 5px 17px;
+	color:rgb(69,124,216);
+}
+
+#right_scrollArea &gt; QWidget{
+	background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="top_widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="bottom_widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QSplitter" name="splitter">
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="handleWidth">
+          <number>3</number>
+         </property>
+         <property name="childrenCollapsible">
+          <bool>true</bool>
+         </property>
+         <widget class="QScrollArea" name="left_scrollArea">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAsNeeded</enum>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustIgnored</enum>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>677</width>
+             <height>528</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="listWidget">
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QAbstractScrollArea::AdjustToContents</enum>
+              </property>
+              <item>
+               <property name="text">
+                <string>新建项目0</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目6</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目7</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目8</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目9</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>新建项目A</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QScrollArea" name="right_scrollArea">
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustToContents</enum>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>120</width>
+             <height>528</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3"/>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

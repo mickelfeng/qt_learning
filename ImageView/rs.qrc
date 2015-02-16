@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/rs/system">
+        <file>rs/17_1920x1200.jpg</file>
+    </qresource>
+</RCC>

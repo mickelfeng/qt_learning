@@ -1,0 +1,17 @@
+QMainWindow{
+}
+
+
+QPushButton{
+    background-color:#5cb85c;
+    border-color:#adadad;
+    width:75px;
+    height:23px;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+QPushButton:hover{
+    background-color:#47a447;
+}
+
+

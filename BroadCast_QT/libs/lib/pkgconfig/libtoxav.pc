@@ -1,0 +1,11 @@
+prefix=/opt/workspace/libtoxcore-win32-i686/prefix
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtoxav
+Description: Tox A/V library
+Requires:
+Version: 0.0.0
+Libs: -L${libdir} -ltoxav -L/opt/workspace/libopus-win32-i686/prefix/lib -lopus  -L/opt/workspace/libvpx-win32-i686/prefix/lib -lvpx -lm  -pthread
+Cflags: -I${includedir}

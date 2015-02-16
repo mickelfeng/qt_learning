@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/about.png</file>
+        <file>images/directory.png</file>
+        <file>images/ftp.png</file>
+        <file>images/port.png</file>
+        <file>images/ftplogin.png</file>
+        <file>images/bg.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style.qss</file>
+    </qresource>
+</RCC>

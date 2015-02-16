@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>preferences-system.png</file>
+        <file>Floopy.png</file>
+        <file>backup.png</file>
+        <file>1372959828_cross-24.png</file>
+        <file>1372959863_cut.png</file>
+        <file>1372959889_floppy_disk_save.png</file>
+        <file>1372959918_cmd.png</file>
+        <file>1372959920_search_magnifying_glass_find.png</file>
+        <file>1372959927_command_line_prompt_shell.png</file>
+        <file>1372959980_copy.png</file>
+        <file>1372960006_message.png</file>
+        <file>1372960028_search.png</file>
+        <file>1372960155_redo.png</file>
+        <file>1372960159_undo.png</file>
+        <file>document-new.png</file>
+        <file>Actions-document-save-all-icon.png</file>
+        <file>github.jpg</file>
+        <file>cloud-computing.jpg</file>
+        <file>shutterstock.jpg</file>
+        <file>1373155835_media-play-pause-resume.png</file>
+        <file>1373155865_media-play.png</file>
+        <file>1373155874_media-pause.png</file>
+        <file>1373156393_147.png</file>
+        <file>1373156397_146.png</file>
+        <file>1373156401_145.png</file>
+        <file>up.png</file>
+        <file>recycle.png</file>
+        <file>check.png</file>
+        <file>info.png</file>
+        <file>Cat-Black-icon.png</file>
+    </qresource>
+</RCC>

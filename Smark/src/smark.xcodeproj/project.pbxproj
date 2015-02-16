@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/putclub/Developer/QT/Smark/src\ -f\ \'smark.xcodeproj/qt_makeqmake.mak\'";
+		};
+		0C4C79C0ABF64963D8D3EC31 = {
+			isa = PBXFileReference;
+			name = "SmkApp.cpp";
+			path = "Smark/SmkApp.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BC739A644809325463B1E11B = {
+			fileRef = "0C4C79C0ABF64963D8D3EC31";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2E522FD02FFAC05C8C21CEFE = {
+			isa = PBXFileReference;
+			name = "qMain.cpp";
+			path = "Smark/qMain.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		21342EDD63BDFF9EB875B802 = {
+			fileRef = "2E522FD02FFAC05C8C21CEFE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		428A132C2F4D513DC2486D76 = {
+			isa = PBXFileReference;
+			name = "SmkMarkParser.cpp";
+			path = "Smark/SmkMarkParser.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C3F387E87935D3B391A5B489 = {
+			fileRef = "428A132C2F4D513DC2486D76";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		55728B47D83E92BA542C31C7 = {
+			isa = PBXFileReference;
+			name = "SmkMarkHighlighter.cpp";
+			path = "Smark/SmkMarkHighlighter.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D16E36C251D70BFB00975819 = {
+			fileRef = "55728B47D83E92BA542C31C7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		33BDEA17E4B812340C0BBA0E = {
+			isa = PBXFileReference;
+			name = "SmkMarkWidget.cpp";
+			path = "Smark/SmkMarkWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B9BA12DABD35E5FA4E0E35F8 = {
+			fileRef = "33BDEA17E4B812340C0BBA0E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C4422D9BB9740BA5E454F22E = {
+			isa = PBXFileReference;
+			name = "SmkHtmlWidget.cpp";
+			path = "Smark/SmkHtmlWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C66B0AEEF29840A272FF614E = {
+			fileRef = "C4422D9BB9740BA5E454F22E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5ED690E236CC342E5CABC9AD = {
+			isa = PBXFileReference;
+			name = "SmkOptionDialog.cpp";
+			path = "Smark/SmkOptionDialog.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FD713EFA14A8A8002B3EA836 = {
+			fileRef = "5ED690E236CC342E5CABC9AD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		258E05638E90B28198D36416 = {
+			isa = PBXFileReference;
+			name = "SmkBasicMarkWidget.cpp";
+			path = "Smark/SmkBasicMarkWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B09F6DEA0F1457A362B68D0E = {
+			fileRef = "258E05638E90B28198D36416";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		79BCF1754831EF7EBE09C2E1 = {
+			isa = PBXFileReference;
+			name = "SmkMainWindow.cpp";
+			path = "Smark/SmkMainWindow.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CC38E0B2ECC3D9899BAB2770 = {
+			fileRef = "79BCF1754831EF7EBE09C2E1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FB6F7893FA05CF1053D23356 = {
+			isa = PBXFileReference;
+			name = "SmkHtmlHighlighter.cpp";
+			path = "Smark/SmkHtmlHighlighter.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2C2513695D387F074B7E6710 = {
+			fileRef = "FB6F7893FA05CF1053D23356";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5B4770342B399EC87158E9D8 = {
+			isa = PBXFileReference;
+			name = "LOGO.rc";
+			path = "Smark/rc/LOGO.rc";
+			refType = 4;
+		};
+		A3E7133A62A45520AC6A2C0C = {
+			fileRef = "5B4770342B399EC87158E9D8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8B90A1A10F511A83DAC2D22F = {
+			isa = PBXFileReference;
+			name = "moc_SmkApp.cpp";
+			path = "moc_SmkApp.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		792EA67B2BFDE376C2754C9F = {
+			fileRef = "8B90A1A10F511A83DAC2D22F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5CBA4D61CB60AA8E00BF3247 = {
+			isa = PBXFileReference;
+			name = "moc_SmkMarkParser.cpp";
+			path = "moc_SmkMarkParser.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		687A2678CE64112D5C13060B = {
+			fileRef = "5CBA4D61CB60AA8E00BF3247";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		55639C7B1645B9D72B5D3C4B = {
+			isa = PBXFileReference;
+			name = "moc_SmkMarkWidget.cpp";
+			path = "moc_SmkMarkWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4370FBBABF03D17FA3860FF3 = {
+			fileRef = "55639C7B1645B9D72B5D3C4B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4A0BC5DAF9C78259FE395BB9 = {
+			isa = PBXFileReference;
+			name = "moc_SmkHtmlWidget.cpp";
+			path = "moc_SmkHtmlWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		368037EA411160088A31588C = {
+			fileRef = "4A0BC5DAF9C78259FE395BB9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E6DDE32E70941A42DB6690BD = {
+			isa = PBXFileReference;
+			name = "moc_SmkOptionDialog.cpp";
+			path = "moc_SmkOptionDialog.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0EBDC6E67C08331C910D3470 = {
+			fileRef = "E6DDE32E70941A42DB6690BD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E4BC490FB800F447E06395B7 = {
+			isa = PBXFileReference;
+			name = "moc_SmkBasicMarkWidget.cpp";
+			path = "moc_SmkBasicMarkWidget.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		778392A0E02E85AE998DF6EF = {
+			fileRef = "E4BC490FB800F447E06395B7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3BCC08605155F98C6184CF5D = {
+			isa = PBXFileReference;
+			name = "moc_SmkMainWindow.cpp";
+			path = "moc_SmkMainWindow.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CF3D5FAB4A08B46A59FFF2B1 = {
+			fileRef = "3BCC08605155F98C6184CF5D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D93A18EDE33A79EFC565B9EB = {
+			isa = PBXFileReference;
+			name = "qrc_icon.cpp";
+			path = "qrc_icon.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		65D10CAB9C8C3A13D02F273C = {
+			fileRef = "D93A18EDE33A79EFC565B9EB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0694CECF70AC7B5C58BCC70F = {
+			isa = PBXFileReference;
+			name = "ui_SmkOptionDialog.h";
+			path = "ui_SmkOptionDialog.h";
+			refType = 4;
+		};
+		6CE15F8341C20159242EDCAA = {
+			isa = PBXFileReference;
+			name = "ui_SmkMainWindow.h";
+			path = "ui_SmkMainWindow.h";
+			refType = 4;
+		};
+		9AC274F4B2D8597B94BB87FF = {
+			isa = PBXFileReference;
+			name = "SmkConfig.h";
+			path = "Smark/SmkConfig.h";
+			refType = 4;
+		};
+		30EAA2EBC3732E4AC7C9A4A6 = {
+			isa = PBXFileReference;
+			name = "SmkApp.h";
+			path = "Smark/SmkApp.h";
+			refType = 4;
+		};
+		FA79A03FEAE8C168F930DCE6 = {
+			isa = PBXFileReference;
+			name = "SmkIO.h";
+			path = "Smark/SmkIO.h";
+			refType = 4;
+		};
+		40DB4BA414B2100313CD3896 = {
+			isa = PBXFileReference;
+			name = "SmkMarkParser.h";
+			path = "Smark/SmkMarkParser.h";
+			refType = 4;
+		};
+		8A8DD5240CD622BD146A269F = {
+			isa = PBXFileReference;
+			name = "SmkMarkHighlighter.h";
+			path = "Smark/SmkMarkHighlighter.h";
+			refType = 4;
+		};
+		C4CD943A80882D15482B7EF7 = {
+			isa = PBXFileReference;
+			name = "SmkMarkWidget.h";
+			path = "Smark/SmkMarkWidget.h";
+			refType = 4;
+		};
+		761558EC09B7E1EC2D566ED9 = {
+			isa = PBXFileReference;
+			name = "SmkHtmlWidget.h";
+			path = "Smark/SmkHtmlWidget.h";
+			refType = 4;
+		};
+		F2CC19D2013F17E1438B44F8 = {
+			isa = PBXFileReference;
+			name = "SmkOptionDialog.h";
+			path = "Smark/SmkOptionDialog.h";
+			refType = 4;
+		};
+		FDDE00B90E409132AC7048B4 = {
+			isa = PBXFileReference;
+			name = "SmkBasicMarkWidget.h";
+			path = "Smark/SmkBasicMarkWidget.h";
+			refType = 4;
+		};
+		04155B30A24F40BFBA427400 = {
+			isa = PBXFileReference;
+			name = "SmkMainWindow.h";
+			path = "Smark/SmkMainWindow.h";
+			refType = 4;
+		};
+		6187798BA83CF70DCAAD65B7 = {
+			isa = PBXFileReference;
+			name = "SmkHtmlHighlighter.h";
+			path = "Smark/SmkHtmlHighlighter.h";
+			refType = 4;
+		};
+		39B51603DD17202974594896 = {
+			isa = PBXFileReference;
+			name = "smark2.pro";
+			path = "smark2.pro";
+			refType = 4;
+		};
+		EC6C80FD71D3DE191939563E = {
+			isa = PBXFileReference;
+			name = "icon.qrc";
+			path = "Smark/rc/icon.qrc";
+			refType = 4;
+		};
+		AF81A0D83D9FF56FE4FCAF58 = {
+			fileRef = "EC6C80FD71D3DE191939563E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46C6488648F40C9EEF5575E8 = {
+			isa = PBXFileReference;
+			name = "SmkOptionDialog.ui";
+			path = "Smark/SmkOptionDialog.ui";
+			refType = 4;
+		};
+		68727827409D8D4742403F6E = {
+			fileRef = "46C6488648F40C9EEF5575E8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		26B0AF95BC0CB9C863236208 = {
+			isa = PBXFileReference;
+			name = "SmkMainWindow.ui";
+			path = "Smark/SmkMainWindow.ui";
+			refType = 4;
+		};
+		F17EBBACB3658CB657B89DAA = {
+			fileRef = "26B0AF95BC0CB9C863236208";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"A4BCBF2B2798380C231EACAE");
+			name = "Headers";
+			refType = 4;
+		};
+		A4BCBF2B2798380C231EACAE = {
+			isa = PBXGroup;
+			children = (
+				"9AC274F4B2D8597B94BB87FF",
+				"30EAA2EBC3732E4AC7C9A4A6",
+				"FA79A03FEAE8C168F930DCE6",
+				"40DB4BA414B2100313CD3896",
+				"8A8DD5240CD622BD146A269F",
+				"C4CD943A80882D15482B7EF7",
+				"761558EC09B7E1EC2D566ED9",
+				"F2CC19D2013F17E1438B44F8",
+				"FDDE00B90E409132AC7048B4",
+				"04155B30A24F40BFBA427400",
+				"6187798BA83CF70DCAAD65B7");
+			name = "Smark";
+			refType = 4;
+		};
+		F7B0B0EAF3B54DCDB159B024 = {
+			isa = PBXGroup;
+			children = (
+				"BC735CA041946CAB0085B49E");
+			name = "Smark";
+			refType = 4;
+		};
+		BC735CA041946CAB0085B49E = {
+			isa = PBXGroup;
+			children = (
+				"EC6C80FD71D3DE191939563E");
+			name = "rc";
+			refType = 4;
+		};
+		F4471C5302E4F0E2E26F9986 = {
+			isa = PBXGroup;
+			children = (
+				"46C6488648F40C9EEF5575E8",
+				"26B0AF95BC0CB9C863236208");
+			name = "Smark";
+			refType = 4;
+		};
+		F40756AC97194EB9D5A9A77F = {
+			isa = PBXGroup;
+			children = (
+				"0C4C79C0ABF64963D8D3EC31",
+				"2E522FD02FFAC05C8C21CEFE",
+				"428A132C2F4D513DC2486D76",
+				"55728B47D83E92BA542C31C7",
+				"33BDEA17E4B812340C0BBA0E",
+				"C4422D9BB9740BA5E454F22E",
+				"5ED690E236CC342E5CABC9AD",
+				"258E05638E90B28198D36416",
+				"79BCF1754831EF7EBE09C2E1",
+				"FB6F7893FA05CF1053D23356",
+				"EF776A3239DB04BA868DE039");
+			name = "Smark";
+			refType = 4;
+		};
+		EF776A3239DB04BA868DE039 = {
+			isa = PBXGroup;
+			children = (
+				"5B4770342B399EC87158E9D8");
+			name = "rc";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"F40756AC97194EB9D5A9A77F");
+			name = "Sources";
+			refType = 4;
+		};
+		52C235EBF1C9B07808119459 = {
+			isa = PBXGroup;
+			children = (
+				"F7B0B0EAF3B54DCDB159B024");
+			name = "Sources [RCC]";
+			refType = 4;
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"F4471C5302E4F0E2E26F9986");
+			name = "Sources [UIC]";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"39B51603DD17202974594896");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"8B90A1A10F511A83DAC2D22F",
+				"5CBA4D61CB60AA8E00BF3247",
+				"55639C7B1645B9D72B5D3C4B",
+				"4A0BC5DAF9C78259FE395BB9",
+				"E6DDE32E70941A42DB6690BD",
+				"E4BC490FB800F447E06395B7",
+				"3BCC08605155F98C6184CF5D",
+				"D93A18EDE33A79EFC565B9EB",
+				"0694CECF70AC7B5C58BCC70F",
+				"6CE15F8341C20159242EDCAA");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"BC739A644809325463B1E11B",
+				"21342EDD63BDFF9EB875B802",
+				"C3F387E87935D3B391A5B489",
+				"D16E36C251D70BFB00975819",
+				"B9BA12DABD35E5FA4E0E35F8",
+				"C66B0AEEF29840A272FF614E",
+				"FD713EFA14A8A8002B3EA836",
+				"B09F6DEA0F1457A362B68D0E",
+				"CC38E0B2ECC3D9899BAB2770",
+				"2C2513695D387F074B7E6710",
+				"792EA67B2BFDE376C2754C9F",
+				"687A2678CE64112D5C13060B",
+				"4370FBBABF03D17FA3860FF3",
+				"368037EA411160088A31588C",
+				"0EBDC6E67C08331C910D3470",
+				"778392A0E02E85AE998DF6EF",
+				"CF3D5FAB4A08B46A59FFF2B1",
+				"65D10CAB9C8C3A13D02F273C");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"BC739A644809325463B1E11B",
+				"21342EDD63BDFF9EB875B802",
+				"C3F387E87935D3B391A5B489",
+				"D16E36C251D70BFB00975819",
+				"B9BA12DABD35E5FA4E0E35F8",
+				"C66B0AEEF29840A272FF614E",
+				"FD713EFA14A8A8002B3EA836",
+				"B09F6DEA0F1457A362B68D0E",
+				"CC38E0B2ECC3D9899BAB2770",
+				"2C2513695D387F074B7E6710",
+				"792EA67B2BFDE376C2754C9F",
+				"687A2678CE64112D5C13060B",
+				"4370FBBABF03D17FA3860FF3",
+				"368037EA411160088A31588C",
+				"0EBDC6E67C08331C910D3470",
+				"778392A0E02E85AE998DF6EF",
+				"CF3D5FAB4A08B46A59FFF2B1",
+				"65D10CAB9C8C3A13D02F273C");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/putclub/Developer/QT/Smark/src\ -f\ \'smark.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"BC739A644809325463B1E11B",
+				"21342EDD63BDFF9EB875B802",
+				"C3F387E87935D3B391A5B489",
+				"D16E36C251D70BFB00975819",
+				"B9BA12DABD35E5FA4E0E35F8",
+				"C66B0AEEF29840A272FF614E",
+				"FD713EFA14A8A8002B3EA836",
+				"B09F6DEA0F1457A362B68D0E",
+				"CC38E0B2ECC3D9899BAB2770",
+				"2C2513695D387F074B7E6710",
+				"792EA67B2BFDE376C2754C9F",
+				"687A2678CE64112D5C13060B",
+				"4370FBBABF03D17FA3860FF3",
+				"368037EA411160088A31588C",
+				"0EBDC6E67C08331C910D3470",
+				"778392A0E02E85AE998DF6EF",
+				"CF3D5FAB4A08B46A59FFF2B1",
+				"65D10CAB9C8C3A13D02F273C");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		E7E2FF2E5A8F1012DF001E35 = {
+			isa = PBXFrameworkReference;
+			name = "QtWebKit.framework";
+			path = "/Library/Frameworks/QtWebKit.framework";
+			refType = 0;
+		};
+		B198A42F9C7E6191234418CA = {
+			fileRef = "E7E2FF2E5A8F1012DF001E35";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"E7E2FF2E5A8F1012DF001E35",
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"B198A42F9C7E6191234418CA",
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+				A3E7133A62A45520AC6A2C0C,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"52C235EBF1C9B07808119459",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "smark";
+			path = "";
+			refType = 4;
+		};
+		C90FF78AD9BE473842141782 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "smark.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"C90FF78AD9BE473842141782");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		6DB2FF040F8C8F9DFBFAB4DE = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/putclub/Developer/QT/Smark/src";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "smark";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "C90FF78AD9BE473842141782";
+			shouldUseHeadermap = 1;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>LOGO.rc</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>smark</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.smark</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "smark";
+			productName = "smark";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		4B72B24813252891014BCF61 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "smark";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtWebKit.framework/Versions/4/Headers",
+					"/usr/include/QtWebKit",
+					"/usr/include",
+					".",
+					"src",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_WEBKIT_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_WEBKIT_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		BEC09A62E69C3553534FF35E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "smark";
+				PRODUCT_NAME = "smark";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "smark";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		D70590BEB531B51029F711BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "smark";
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtWebKit.framework/Versions/4/Headers",
+					"/usr/include/QtWebKit",
+					"/usr/include",
+					".",
+					"src",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/Library/Frameworks");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_WEBKIT_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_WEBKIT_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		8C7174830A1E4DCBA0332EC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "smark";
+				PRODUCT_NAME = "smark";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "smark";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		CC82A9286117DFED018F418F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"4B72B24813252891014BCF61",
+				"D70590BEB531B51029F711BB");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		17B3380A4D6A7D415E7F2E1E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"BEC09A62E69C3553534FF35E",
+				"8C7174830A1E4DCBA0332EC1");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "CC82A9286117DFED018F418F";
+			projectDirPath = "";
+			targets = (
+				"6DB2FF040F8C8F9DFBFAB4DE");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}

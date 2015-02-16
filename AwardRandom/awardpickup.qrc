@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/award1.png</file>
+        <file>images/award2.png</file>
+        <file>images/award3.png</file>
+        <file>images/award4.png</file>
+        <file>images/musicOfBackground.mp3</file>
+        <file>images/musicOfDraw.mp3</file>
+        <file>images/musicOfRolling.mp3</file>
+        <file>images/颁奖曲.mp3</file>
+        <file>images/灯笼鞭炮.jpg</file>
+        <file>images/award5.png</file>
+        <file>images/award6.png</file>
+        <file>images/music.png</file>
+        <file>images/quit.png</file>
+        <file>images/setup.png</file>
+        <file>images/save1.png</file>
+        <file>images/help.png</file>
+        <file>doc/help1.JPG</file>
+        <file>doc/help2.JPG</file>
+        <file>doc/help4.JPG</file>
+        <file>images/awardpickup.png</file>
+    </qresource>
+</RCC>
